@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 variable "userName" {
-  description = "Name of the IAM user (optional)"
+  description = "Name of the IAM user"
   type=string
 }
 
@@ -23,7 +23,7 @@ variable "roleName" {
 }
 
 variable "bucketName" {
-  description = "Name of the S3 bucket (optional)"
+  description = "Name of the S3 bucket"
   type=string
 }
 
