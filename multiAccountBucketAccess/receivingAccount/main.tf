@@ -33,7 +33,7 @@ variable "sendingAccount" {
 }
 
 variable "createUser"{
-  description="Boolean determining of a user should be created or an existing one will be used"
+  description="Boolean determining if a user should be created or an existing one will be used"
   type=bool
 }
 
